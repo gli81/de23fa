@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+
+"""
+TESTS goes here
+"""
 
 from main import longestSubstring
 
