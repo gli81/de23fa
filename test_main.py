@@ -4,6 +4,7 @@
 TESTS goes here
 """
 
+
 from main import longestSubstring
 
 def test_main():
