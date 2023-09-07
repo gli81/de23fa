@@ -35,3 +35,7 @@ calls the following command
 `pylint --disable=R,C --ignore-patterns=test_.*?py *.py`
 
 ![LintResult](./resources/make_lint.png)
+
+## References
+
+[Professor Noah's template](https://github.com/nogibjj/python-template)
