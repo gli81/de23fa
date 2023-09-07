@@ -10,9 +10,28 @@ This template serves as the base repository for future projects in the class.
 
 ### Install python packages
 
+`make install`
+
+calls the following commands
+
 `pip install --upgrade pip && pip install -r requirements.txt`
 
 ### Test the code
 
+`make test`
+
+calls the following command
+
 `python -m pytest -vv --cov=main test_*.py`
 
+![TestResult](./resources/make_test.png)
+
+### Lint the code
+
+`make lint`
+
+calls the following command
+
+`pylint --disable=R,C --ignore-patterns=test_.*?py *.py`
+
+![LintResult](./resources/make_lint.png)
